@@ -1,10 +1,9 @@
 let myComputerManufacturer = "asus vivobook";
-console.log(myComputerManufacturer);
 let myComputerMemory = "16gb ";
-console.log(myComputerMemory);
 let myComputerOS = "windows";
 const computerBuyingYear = 2017;
-console.log(computerBuyingYear);
 let currentYear = 2023;
 let durration = currentYear - computerBuyingYear;
-console.log('my computer is ' + myComputerManufacturer + ', it turns on ' + myComputerOS + " and I've been using it for " + durration + " year." );
+let sentence = 'my computer is ' + myComputerManufacturer + ', it turns on ' + myComputerOS + " and I've been using it for " + durration + " year."
+console.log(sentence );
+
